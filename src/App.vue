@@ -11,8 +11,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Vectis" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Serviços</RouterLink>
+        <RouterLink to="/about">sobre</RouterLink>
+        <RouterLink to="/contact">Contato</RouterLink>
       </nav>
     </div>
   </header>

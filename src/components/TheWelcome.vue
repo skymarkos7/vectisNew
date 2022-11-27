@@ -12,18 +12,17 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading> Legalização de Empresas</template>
+    <p> Seu CNPJ em poucos dias sem sair de casa.</p>
+    <p>  Abertura, Alteração, Regularização e Encerramento de CNPJ. </p>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Escrituração Contábil e Fiscal</template>
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
@@ -43,23 +42,16 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Planejamento Tributário | Declaração de IRPF, IRPJ e ITR</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <p>Identificamos a melhor forma de economizar no pagamento de impostos.</p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>Assessoria Trabalhista e financeira</template>
 
     Got stuck? Ask your question on
     <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
@@ -77,7 +69,18 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>Contabilidade Consultiva | Folha de pagamento para doméstica</template>
+
+    As an independent project, Vue relies on community backing for its sustainability. You can help
+    us by
+    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <SupportIcon />
+    </template>
+    <template #heading> Cálculos para Advogados | Profissional liberal</template>
 
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by

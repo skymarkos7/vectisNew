@@ -1,25 +1,30 @@
 <template>
-  <div class="about">
-    <h3>
-      <p>
-        • <span>Missão:</span> Democratizar a contabilidade consultiva para autônomos,
-        pequenas e médias empresas do Estado de Alagoas, oferecendo o melhor
-        atendimento de todo o Brasil.
-      </p>
+  <div>
+    <div class="about" style="margin:1px; padding: 1px;">
+      
+      <h3>
+        <p>
+          • <span>Missão:</span> Democratizar a contabilidade consultiva para autônomos,
+          pequenas e médias empresas do Estado de Alagoas, oferecendo o melhor
+          atendimento de todo o Brasil.
+        </p>
 
-      <p>
-        • <span>Visão:</span> Ser a melhor empresa de contabilidade consultiva para o setor
-        de serviços do Estado de Alagoas.
-      </p>
+        <p>
+          • <span>Visão:</span> Ser a melhor empresa de contabilidade consultiva para o setor
+          de serviços do Estado de Alagoas.
+        </p>
 
-      <p>
-        • <span>Valores:</span> Simplicidade, Transparência, Honestidade,
-        Responsabilidade, Ética e Inovação. A identidade foi desenvolvida com as
-        características que são a peça chave da <b>marca:</b> Simplicidade,
-        Autoridade, Conança e Responsabilidade.
-      </p>
-    </h3>
-  </div>
+        <p>
+          • <span>Valores:</span> Simplicidade, Transparência, Honestidade,
+          Responsabilidade, Ética e Inovação. A identidade foi desenvolvida com as
+          características que são a peça chave da <b>marca:</b> Simplicidade,
+          Autoridade, Conança e Responsabilidade.
+        </p>
+      </h3>
+        
+    </div>
+  
+</div>
 </template>
 
 <style scoped>
