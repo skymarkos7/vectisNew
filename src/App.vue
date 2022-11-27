@@ -16,9 +16,11 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/contact">Contato</RouterLink>
       </nav>
     </div>
+    
   </header>
 
   <RouterView />
+  <p style="margin:10px">copyright © by <a href="https://api.whatsapp.com/send?phone=5582996909200&text=Oi,%20tenho%20interesse%20em%20seus%20servi%C3%A7os%20de%20desenvolvimento"> Dev. Ensinar</a> - 2022</p>
 </template>
 
 <style scoped>

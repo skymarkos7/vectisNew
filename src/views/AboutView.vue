@@ -2,6 +2,7 @@
   <div>
     <div class="about" style="margin:1px; padding: 1px;">
       
+      <div>
       <h3>
         <p>
           • <span>Missão:</span> Democratizar a contabilidade consultiva para autônomos,
@@ -21,6 +22,24 @@
           Autoridade, Conança e Responsabilidade.
         </p>
       </h3>
+
+      <hr>
+
+      <h4>
+        <p>
+          Atuamos de forma mais próxima, sem burocracia, com o foco no relacionamento e utilizando a ciência da contabilidade para cuidar da saúde do seu negócio, tornando-o melhor e mais sustentável.
+        </p>
+
+        <p>
+          Atuamos de forma mais próxima, sem burocracia, com o foco no relacionamento e utilizando a ciência da contabilidade para cuidar da saúde do seu negócio, tornando-o melhor e mais sustentável.
+        </p>
+
+        <p>
+        Com os nossos serviços, você tem a certeza que a sua contabilidade está em boas mãos e, com isso, pode se dedicar ao que realmente importa: a sua empresa!
+        </p>
+      </h4>
+    </div>
+
         
     </div>
   
