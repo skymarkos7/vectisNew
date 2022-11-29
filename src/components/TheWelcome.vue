@@ -13,34 +13,22 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading> Legalização de Empresas</template>
-    <p> Seu CNPJ em poucos dias sem sair de casa.</p>
-    <p>  Abertura, Alteração, Regularização e Encerramento de CNPJ. </p>
+    <p> Abra, altere, regularize e faça o encerramento de empresas em poucos dias, sem sair de casa. </p>    
 
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <img src="src/assets/paper.svg" width="30" height="30" alt="">
     </template>
     <template #heading>Escrituração Contábil e Fiscal</template>
-
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <p>Além de ser um documento exigido por lei a Escrituração é complexa e cheia de detalhes e pode gerar muita dor de cabeça, deixe-a com a gente e mantenha o foco no seu negócio.</p>
+    
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <img src="src/assets/query.svg" height="30" width="30" alt="planejamento">
     </template>
     <template #heading>Planejamento Tributário | Declaração de IRPF, IRPJ e ITR</template>
 
@@ -49,38 +37,28 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
+      <img src="src/assets/group.svg" height="30" width="30" alt="assessoria">
+    </template>
+    <template #heading>Contabilidade Consultiva  Folha de pagamento para doméstica</template>
+      <p>Nessa área da contabilidade, o contador atua muito mais próximo dos clientes e de maneira estratégica, auxiliando na tomada de decisão de forma racional e planejada.</p>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
       <CommunityIcon />
     </template>
     <template #heading>Assessoria Trabalhista e financeira</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+      <p>É um serviço direcionado aos empregadores, de caráter estritamente técnico, visando propor a adequação
+         da atividade empresarial às leis trabalhistas vigentes. Permitindo ao empresário ter mais segurança e
+         tranquilidade na gestão dos seus recursos humanos
+      </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos">
     </template>
-    <template #heading>Contabilidade Consultiva | Folha de pagamento para doméstica</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading> Cálculos para Advogados | Profissional liberal</template>
+    <template #heading> Cálculos para Advogados ou Profissional liberal</template>
 
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
