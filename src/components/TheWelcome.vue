@@ -19,7 +19,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/paper.svg" width="30" height="30" alt="">
+      <!-- <img src="src/assets/paper.svg" width="30" height="30" alt=""> -->
     </template>
     <template #heading>Escrituração Contábil e Fiscal</template>
     <p>Além de ser um documento exigido por lei a Escrituração é complexa e cheia de detalhes e pode gerar muita dor de cabeça, deixe-a com a gente e mantenha o foco no seu negócio.</p>
@@ -28,7 +28,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/query.svg" height="30" width="30" alt="planejamento">
+      <!-- <img src="src/assets/query.svg" height="30" width="30" alt="planejamento"> -->
     </template>
     <template #heading>Planejamento Tributário | Declaração de IRPF, IRPJ e ITR</template>
 
@@ -37,7 +37,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/group.svg" height="30" width="30" alt="assessoria">
+      <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
     </template>
     <template #heading>Contabilidade Consultiva  Folha de pagamento para doméstica</template>
       <p>Nessa área da contabilidade, o contador atua muito mais próximo dos clientes e de maneira estratégica, auxiliando na tomada de decisão de forma racional e planejada.</p>
@@ -56,7 +56,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos">
+      <!-- <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos"> -->
     </template>
     <template #heading> Cálculos para Advogados ou Profissional liberal</template>
 
