@@ -1,3 +1,3 @@
-module.exports = {
-    publicPath: 'vectis-dist'
-  }
+// module.exports = {
+//     publicPath: 'vectis-dist'
+//   }

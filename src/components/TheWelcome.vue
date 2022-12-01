@@ -19,7 +19,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/paper.svg" width="30" height="30" alt="">
+      <!-- <img src="src/assets/paper.svg" width="30" height="30" alt=""> -->
     </template>
     <template #heading>Declaração de IRPF, IRPJ e ITR</template>
     <p>Por meio dessa ferramenta, conhecida como elisão fiscal, diminuímos o pagamento de tributos de forma lícita. O contribuinte tem o direito de estruturar o seu negócio da maneira que melhor lhe pareça, procurando a diminuição dos custos de seu empreendimento, inclusive dos impostos.</p>
@@ -28,7 +28,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/query.svg" height="30" width="30" alt="planejamento">
+      <!-- <img src="src/assets/query.svg" height="30" width="30" alt="planejamento"> -->
     </template>
     <template #heading>Planejamento Tributário</template>
 
@@ -46,7 +46,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/group.svg" height="30" width="30" alt="assessoria">
+      <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
     </template>
     <template #heading> Cálculos para Profissional liberal</template>
       <p>Faça a regularização do seu negócio e desenvolva sua atividade com segurança e pagando seus impostos da maneira correta. Trabalhamos com Psicólogos, Veterinários, Nutricionistas, Arquitetos, Advogados, Engenheiros, Médicos entre outros
@@ -55,7 +55,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos">
+      <!-- <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos"> -->
     </template>
     <template #heading> Cálculos para Advogados</template>
 
