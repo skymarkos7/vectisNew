@@ -10,9 +10,7 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-      Contabilidade descomplicada, personalizada e focada em trazer resultados para você e sua empresa!
-    </h3>
+    
   </div>
 </template>
 

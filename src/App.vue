@@ -5,11 +5,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="125" height="125" /> -->
 
     <div class="wrapper">
-      <HelloWorld msg="Vectis" />
-
+      <!-- <HelloWorld msg="Vectis" /> -->
+      <img alt="Vue logo" class="logo" src="@/assets/novalogo1.png" width="300" height="225"/>
       <nav>
         <RouterLink to="/">Serviços</RouterLink>
         <RouterLink to="/about">sobre</RouterLink>
