@@ -22,7 +22,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <!-- <img src="src/assets/paper.svg" width="30" height="30" alt=""> -->
     </template>
     <template #heading>Declaração de IRPF, IRPJ e ITR</template>
-    <p>Por meio dessa ferramenta, conhecida como elisão fiscal, diminuímos o pagamento de tributos de forma lícita. O contribuinte tem o direito de estruturar o seu negócio da maneira que melhor lhe pareça, procurando a diminuição dos custos de seu empreendimento, inclusive dos impostos.</p>
+    <p>Não corra riscos de pagar multas e tenha mais tranquilidade ao realizar a sua declaração. Identificamos a melhor forma de economizar no pagamento de impostos.</p>
     
   </WelcomeItem>
 
@@ -32,12 +32,12 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Planejamento Tributário</template>
 
-    <p>Identificamos a melhor forma de economizar no pagamento de impostos.</p>
+    <p>Sua empresa está pagando mais impostos do que deveria? Por meio dessa ferramenta, conhecida como elisão fiscal, diminuímos o pagamento de tributos de forma lícita. O contribuinte tem o direito de estruturar o seu negócio da maneira que melhor lhe pareça, procurando a diminuição dos custos de seu empreendimento, inclusive dos impostos.</p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
+      <img src="src/assets/group.svg" height="30" width="30" alt="assessoria">
     </template>
     <template #heading>Contabilidade Consultiva</template>
       <p>Nessa área da contabilidade, o contador atua muito mais próximo dos clientes e de maneira estratégica, auxiliando na tomada de decisão de forma racional e planejada.</p>
@@ -47,7 +47,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
     </template>
-    <template #heading> Cálculos para Profissional liberal</template>
+    <template #heading> Profissional liberal</template>
       <p>Faça a regularização do seu negócio e desenvolva sua atividade com segurança e pagando seus impostos da maneira correta. Trabalhamos com Psicólogos, Veterinários, Nutricionistas, Arquitetos, Advogados, Engenheiros, Médicos entre outros
       </p>
   </WelcomeItem>
@@ -57,9 +57,9 @@ import SupportIcon from './icons/IconSupport.vue'
       <!-- <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos"> -->
     </template>
     <template #heading> Cálculos para Advogados</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+<p>
+  Para realizar cálculos judiciais se faz necessário uma leitura minuciosa dos documentos, verificação de índices de correção, juros de mora, base de cálculo, entre outros detalhes. Nesse sentido, uma parceria com um perito contador pode proporcionar maior economia de tempo e esforço, além de contribuir com seus resultados na advocacia.
+</p>
+    
   </WelcomeItem>
 </template>
