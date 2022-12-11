@@ -2,15 +2,16 @@
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
+import MoneyIcon from './icons/MoneyIcon.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import IconPositive from './icons/IconPositive.vue'
+import PercentIcon from './icons/PercentIcon.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <IconPositive />
     </template>
     <template #heading> Legalização de Empresas</template>
     <p> Abra, altere, regularize e faça o encerramento de empresas em poucos dias, sem sair de casa. </p>    
@@ -20,6 +21,8 @@ import SupportIcon from './icons/IconSupport.vue'
   <WelcomeItem>
     <template #icon>
       <!-- <img src="src/assets/paper.svg" width="30" height="30" alt=""> -->
+      <MoneyIcon />
+
     </template>
     <template #heading>Declaração de IRPF, IRPJ e ITR</template>
     <p>Não corra riscos de pagar multas e tenha mais tranquilidade ao realizar a sua declaração. Identificamos a melhor forma de economizar no pagamento de impostos.</p>
@@ -29,6 +32,7 @@ import SupportIcon from './icons/IconSupport.vue'
   <WelcomeItem>
     <template #icon>
       <!-- <img src="src/assets/query.svg" height="30" width="30" alt="planejamento"> -->
+      <DocumentationIcon />
     </template>
     <template #heading>Planejamento Tributário</template>
 
@@ -37,7 +41,9 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
-      <img src="src/assets/group.svg" height="30" width="30" alt="assessoria">
+      <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
+     <CommunityIcon />
+
     </template>
     <template #heading>Contabilidade Consultiva</template>
       <p>Nessa área da contabilidade, o contador atua muito mais próximo dos clientes e de maneira estratégica, auxiliando na tomada de decisão de forma racional e planejada.</p>
@@ -46,6 +52,7 @@ import SupportIcon from './icons/IconSupport.vue'
   <WelcomeItem>
     <template #icon>
       <!-- <img src="src/assets/group.svg" height="30" width="30" alt="assessoria"> -->
+      <ToolingIcon />
     </template>
     <template #heading> Profissional liberal</template>
       <p>Faça a regularização do seu negócio e desenvolva sua atividade com segurança e pagando seus impostos da maneira correta. Trabalhamos com Psicólogos, Veterinários, Nutricionistas, Arquitetos, Advogados, Engenheiros, Médicos entre outros
@@ -55,6 +62,8 @@ import SupportIcon from './icons/IconSupport.vue'
   <WelcomeItem>
     <template #icon>
       <!-- <img src="src/assets/calculate.svg" height="30" width="30" alt="cálculos"> -->
+      <PercentIcon />
+      
     </template>
     <template #heading> Cálculos para Advogados</template>
 <p>
