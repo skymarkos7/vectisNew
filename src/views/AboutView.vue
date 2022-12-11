@@ -1,16 +1,7 @@
 <template>
   <div>
     <div class="about">
-      <div
-        style="
-          background-image: url('src/assets/paper8.jpg');
-          border-radius: 15px;
-          background-color: #cccccc;
-          margin: 1px;
-          padding: 1px;
-          
-        "
-      >
+      <div>
         <h3>
           <p>
             <span>Missão:</span> Democratizar a contabilidade consultiva para
