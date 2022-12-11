@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <!-- <HelloWorld msg="Vectis" /> -->
-      <img alt="Vue logo" class="logo" src="@/assets/novalogo1.png" width="300" height="225"/>
+      <img alt="Vue logo" class="logo imglogo" src="@/assets/novalogo1.png" width="300" height="225"/>
       <nav>
         <RouterLink to="/">Serviços</RouterLink>
         <RouterLink to="/about">sobre</RouterLink>
@@ -68,6 +68,14 @@ nav a:first-of-type {
 
   .logo {
     margin: 0 2rem 0 0;
+
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .logo:houver {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
   }
 
   header .wrapper {
@@ -84,5 +92,6 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+   
 }
 </style>
