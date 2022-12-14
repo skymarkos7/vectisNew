@@ -18,7 +18,7 @@
             <span>Valores:</span> Simplicidade, Transparência, Honestidade,
             Responsabilidade, Ética e Inovação. A identidade foi desenvolvida
             com as características que são a peça chave da
-            <b>marca:</b> Simplicidade, Autoridade, Conança e Responsabilidade.
+            <b>marca:</b> Simplicidade, Autoridade, Confiança e Responsabilidade.
           </p>
         </h3>
 
