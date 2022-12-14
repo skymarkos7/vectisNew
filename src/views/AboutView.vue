@@ -26,11 +26,10 @@
 
         <h4>
           <p>
-            Atuamos de forma mais próxima, sem burocracia, com o foco no
-            relacionamento e utilizando a ciência da contabilidade para cuidar
-            da saúde do seu negócio, tornando-o melhor e mais sustentável.
+            Na Vectis, sua contabilidade é descomplicada, personalizada e focada
+            em trazer resultados para você e sua empresa.
           </p>
-
+          
           <p>
             Atuamos de forma mais próxima, sem burocracia, com o foco no
             relacionamento e utilizando a ciência da contabilidade para cuidar
@@ -42,6 +41,11 @@
             está em boas mãos e, com isso, pode se dedicar ao que realmente
             importa: a sua empresa!
           </p>
+
+          <p>
+            Venha fazer parte da Vectis: a contabilidade que multiplica resultados.
+          </p>
+          
         </h4>
       </div>
     </div>
