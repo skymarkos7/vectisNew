@@ -38,9 +38,9 @@ export default {
         let zip        = response_locale.data.zip;
         let isp        = response_locale.data.isp;
         let ip         = response_locale.data.query;
-        let text       = "Novo Visitante </br>"+city+"</br>"+country+"<br>"+regionName+"<br>"+isp+"<br>"+ip;
+        let text       = "<b>Você recebeu uma nova visita no site:</b> %0A %0A"+"<b>PAÍS:</b> "+country+"%0A"+"<b>ESTADO:</b> "+regionName+"%0A"+"<b>CIDADE:</b> "+city+"%0A"+"<b>PROVEDOR:</b> "+isp+"%0A"+"<b>IP:</b> "+ip;
 
-        let url = "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text="+text+"html";
+        let url = "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text="+text+"&parse_mode=html";
 
         fetch(url)
           } catch (error) {
@@ -48,22 +48,6 @@ export default {
           }
         }
 
-
-    // let request_lacale = `http://ip-api.com/json/${this.ip}`;
-    // fetch(request_lacale)
-    // .then(response => {
-    //   if (response.status === 200) {
-    //     return response.json();
-    //   } else {
-    //     throw new Error('Ops! Erro ao tentar capturar IP');
-    //   }
-    // })
-    // .then(response => {
-    //   let ip = response;
-    //   console.log(ip);
-    // }).catch(error => {
-    //   console.error(error);
-    // });
 
      // let url = 'https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text=Novo_Visitante/';
     // let url = `https://api.telegram.org/bot${this.id_boot}/sendMessage?chat_id=${this.chat_id}&text=${this.text}/`;
