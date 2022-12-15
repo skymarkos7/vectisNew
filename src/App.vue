@@ -1,61 +1,90 @@
 <!-- setup -->
-<script > 
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+<script >
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
 
-// import { api } from './../boot/axios';
-// import axios, {isCancel, AxiosError} from 'axios';
-// import axios from 'axios';
-// const axios = require('axios');
-// const axios = require('axios/dist/browser/axios.cjs');
+//  import { api } from './../boot/axios';
+//  import axios, {isCancel, AxiosError} from 'axios';
+    import axios from 'axios';
+//  const  axios = require('axios');
+//  const  axios = require('axios/dist/browser/axios.cjs');
 
 export default {
-  data(){
-    return{
+  data() {
+    return {
       id_boot: '5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc',
-      chat_id: '-861133006',
+      chat_id: '1169990427',
       text: 'NovoVisitante'
-      
-    }
-   },
-   mounted: function () {
-    //  const axios = require('axios/dist/browser/axios.cjs');
-  //    const axios = require('axios');
-       // let url = `https://api.telegram.org/bot${this.id_boot}/sendMessage?chat_id=${this.chat_id}&text=${text}/`;
-  let url = 'https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text=Novo_Visitante/';
-  //     api
-  //         .get(url, {
-  // // //         // headers: {
-  // // //         //   jwt: this.$store.state.session.jwt
-  // // //         // }
-  //        })
-  //       .then((response) => {
-  //        this.data = response;
+    };
+  },
+  mounted: function () {
+    //*******ID TELEGRAM************/
+    //   Seu ID:   915622513
+    //   Meu ID:   1169990427
+    //   Group ID: -861133006
+    
+    // ipinfo.io/[endereço IP]?token= 7729640d392738
+    // https://ipinfo.io/json
+    // http://ip-api.com/json/
+    //*****************************/
 
-  //        console.log(data);
-  //       });
-  // console.log(url);
+    getLocale();
+    async function getLocale() {
+      try {
+        const response_locale = await axios.get("http://ip-api.com/json/");
+        let country    = response_locale.data.country;
+        let regionName = response_locale.data.regionName;
+        let city       = response_locale.data.city;
+        let zip        = response_locale.data.zip;
+        let isp        = response_locale.data.isp;
+        let ip         = response_locale.data.query;
+        let text       = "Novo Visitante </br>"+city+"</br>"+country+"<br>"+regionName+"<br>"+isp+"<br>"+ip;
 
-  fetch(url)
-  .then(response => {
-    if (response.status === 200) {
-      return response.json();
-    } else {
-      throw new Error('Ops! Houve um erro em nosso servidor.');
-    }
-  })
-  .then(response => {
-    console.debug(response);
-    // ...
-  }).catch(error => {
-    console.error(error);
-  });
+        let url = "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text="+text+"html";
+
+        fetch(url)
+          } catch (error) {
+            console.error(error);
+          }
+        }
 
 
-     }
+    // let request_lacale = `http://ip-api.com/json/${this.ip}`;
+    // fetch(request_lacale)
+    // .then(response => {
+    //   if (response.status === 200) {
+    //     return response.json();
+    //   } else {
+    //     throw new Error('Ops! Erro ao tentar capturar IP');
+    //   }
+    // })
+    // .then(response => {
+    //   let ip = response;
+    //   console.log(ip);
+    // }).catch(error => {
+    //   console.error(error);
+    // });
 
-  
-  }
+     // let url = 'https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text=Novo_Visitante/';
+    // let url = `https://api.telegram.org/bot${this.id_boot}/sendMessage?chat_id=${this.chat_id}&text=${this.text}/`;
+
+    // fetch(url)
+    //   .then((response) => {
+    //     if (response.status === 200) {
+    //       return response.json();
+    //     } else {
+    //       throw new Error("Ops! Houve um erro em nosso servidor.");
+    //     }
+    //   })
+    //   .then((response) => {
+    //     console.debug(response);
+    //     // ...
+    //   })
+    //   .catch((error) => {
+    //     console.error(error);
+    //   });
+  },
+};
 </script>
 
 <template>
@@ -64,18 +93,31 @@ export default {
 
     <div class="wrapper">
       <!-- <HelloWorld msg="Vectis" /> -->
-      <img alt="Vue logo" class="logo imglogo" src="@/assets/novalogo1.png" width="300" height="225"/>
+      <img
+        alt="Vue logo"
+        class="logo imglogo"
+        src="@/assets/novalogo1.png"
+        width="300"
+        height="225"
+      />
       <nav>
         <RouterLink to="/">Serviços</RouterLink>
         <RouterLink to="/about">sobre</RouterLink>
         <RouterLink to="/contact">Contato</RouterLink>
       </nav>
     </div>
-    
   </header>
 
   <RouterView />
-  <p style="margin:10px">copyright © by <a href="https://api.whatsapp.com/send?phone=5582996909200&text=Oi,%20tenho%20interesse%20em%20seus%20servi%C3%A7os%20de%20desenvolvimento"> Dev. Ensinar</a> - 2022</p>
+  <p style="margin: 10px">
+    copyright © by
+    <a
+      href="https://api.whatsapp.com/send?phone=5582996909200&text=Oi,%20tenho%20interesse%20em%20seus%20servi%C3%A7os%20de%20desenvolvimento"
+    >
+      Dev. Ensinar</a
+    >
+    - 2022
+  </p>
 </template>
 
 
@@ -131,8 +173,8 @@ nav a:first-of-type {
   }
 
   .logo:houver {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
   }
 
   header .wrapper {
@@ -149,6 +191,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-   
 }
 </style>
