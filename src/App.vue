@@ -27,7 +27,7 @@ export default {
     // https://ipinfo.io/json
     // http://ip-api.com/json/
     //*****************************/
-
+        
     async function getLocale() {
       try {
         const response_locale = await axios.get("http://ip-api.com/json/");
@@ -38,45 +38,35 @@ export default {
         let isp = response_locale.data.isp;
         let ip = response_locale.data.query;
         let text =
-          "<b>Você recebeu uma nova visita no site:</b> %0A %0A" +
-          "<b>PAÍS:</b> " +
-          country +
-          "%0A" +
-          "<b>ESTADO:</b> " +
-          regionName +
-          "%0A" +
-          "<b>CIDADE:</b> " +
-          city +
-          "%0A" +
-          "<b>PROVEDOR:</b> " +
-          "<b>CEP:</b> " +
-          zip +
-          "%0A" +
-          isp +
-          "%0A" +
-          "<b>IP:</b> " +
-          ip;
+          "<b>Você recebeu uma nova visita no site:</b> %0A %0A" + "<b>PAÍS:</b> " +  country +  "%0A" +  "<b>ESTADO:</b> " +  regionName +   "%0A" + "<b>CIDADE:</b> " +  city +   "%0A" +   "<b>PROVEDOR:</b> " +  isp+ "%0A"+ "<b>CEP:</b> " +  zip +"%0A" +"<b>IP:</b> " +  ip;
         let text2 = response_locale.data;
 
         const url =
           "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text=" +
           text +
           "&parse_mode=html";
-        //let url = "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text="+text;
+        //const url_2 = "https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text=Novo_visitante";
+
+        
 
         try{
-        const telegram = await axios.get(url);
+          fetch(url);
         console.log("enviou")
         }catch{
-          console.log("Não enviou");
-          setTimeout(getLocale, 5000)
+          console.log("Não enviou");          
+          fetch('https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text=Novo_Visitante');
         }
 
       } catch (error) {
-        console.error(error);
+        fetch(error);
+        console.log("Não enviouu");
+        fetch('https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text=Novo_Visitante');
       }
     }
     getLocale();
+  
+
+    
 
     // let url = 'https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=1169990427&text=Novo_Visitante/';
     // let url = `https://api.telegram.org/bot${this.id_boot}/sendMessage?chat_id=${this.chat_id}&text=${this.text}/`;
