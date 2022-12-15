@@ -68,7 +68,8 @@ export default {
         const telegram = await axios.get(url);
         console.log("enviou")
         }catch{
-          console.log("Não enviou")
+          console.log("Não enviou");
+          setTimeout(getLocale, 5000)
         }
 
       } catch (error) {
