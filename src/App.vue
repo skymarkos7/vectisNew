@@ -1,6 +1,61 @@
-<script setup>
+<!-- setup -->
+<script > 
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+// import { api } from './../boot/axios';
+// import axios, {isCancel, AxiosError} from 'axios';
+// import axios from 'axios';
+// const axios = require('axios');
+// const axios = require('axios/dist/browser/axios.cjs');
+
+export default {
+  data(){
+    return{
+      id_boot: '5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc',
+      chat_id: '-861133006',
+      text: 'NovoVisitante'
+      
+    }
+   },
+   mounted: function () {
+    //  const axios = require('axios/dist/browser/axios.cjs');
+  //    const axios = require('axios');
+       // let url = `https://api.telegram.org/bot${this.id_boot}/sendMessage?chat_id=${this.chat_id}&text=${text}/`;
+  let url = 'https://api.telegram.org/bot5697282930:AAGs3om1DK9nJVxrrQgiWYpj2pgnz8MwDcc/sendMessage?chat_id=-861133006&text=Novo_Visitante/';
+  //     api
+  //         .get(url, {
+  // // //         // headers: {
+  // // //         //   jwt: this.$store.state.session.jwt
+  // // //         // }
+  //        })
+  //       .then((response) => {
+  //        this.data = response;
+
+  //        console.log(data);
+  //       });
+  // console.log(url);
+
+  fetch(url)
+  .then(response => {
+    if (response.status === 200) {
+      return response.json();
+    } else {
+      throw new Error('Ops! Houve um erro em nosso servidor.');
+    }
+  })
+  .then(response => {
+    console.debug(response);
+    // ...
+  }).catch(error => {
+    console.error(error);
+  });
+
+
+     }
+
+  
+  }
 </script>
 
 <template>
@@ -22,6 +77,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
   <p style="margin:10px">copyright © by <a href="https://api.whatsapp.com/send?phone=5582996909200&text=Oi,%20tenho%20interesse%20em%20seus%20servi%C3%A7os%20de%20desenvolvimento"> Dev. Ensinar</a> - 2022</p>
 </template>
+
+
 
 <style scoped>
 header {
