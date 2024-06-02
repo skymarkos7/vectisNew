@@ -1,12 +1,13 @@
 # vectis
 
-Página empresarial para demonstração de serviços de contabilidade e possibilitar contato
+Landing page empresarial para demonstração de serviços de contabilidade e possibilitar contato
 
 ### Visitar
 Current: https://vectiscontabilidade.com/
 
-V1: public/screem-recorder.mp4
-<video src="public/screem-recorder.mp4"></video>
+V1:
+![Example GIF](public/screem-recorder.gif)
+
 
 ### Contém
 - Notificação de visitante para telegram
